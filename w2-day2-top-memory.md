@@ -63,4 +63,4 @@ available：估算出来的、能给新程序用的内存 = free + 大部分可�
 
 ## 今日独立产出
 
-- __今天独立完成了 top / free / vmstat 三件套实操：用第二帧读实时 CPU、用 available 判断内存水位、用 si/so 判断真实内存压力，并产出这份带批注订正的 Day2 记录__
+今天独立完成了 top / free / vmstat 三件套实操：用第二帧读实时 CPU、用 available 判断内存水位、用 si/so 判断真实内存压力，并产出这份带批注订正的 Day2 记录
