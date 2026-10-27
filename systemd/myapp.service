@@ -1,0 +1,12 @@
+[Unit]
+Description=test
+After=network.target auditd.service
+
+[Service]
+User=nina
+WorkingDirectory=/opt/myapp
+ExecStart=/usr/bin/python3 -m http.server 8000 --directory /opt/myapp
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
